@@ -73,7 +73,6 @@ void setup() {
   Lane1.show();  Lane2.show();  Lane3.show();
   Lane4.show();  Lane5.show();  Lane6.show();
   Serial.println("Fully Initialized!");
-  //Fuck you.
 }
 
 void loop() {
@@ -444,7 +443,7 @@ void defaultDesignFun() {
 }
 
 void defaultDesignComp() {
-  interpret('E'); //single pulse P or rainbow with pulse S
+  interpret('R'); //single pulse P or rainbow with pulse S
   //delay(5000);
 }
 

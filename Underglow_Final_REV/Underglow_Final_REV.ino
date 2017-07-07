@@ -46,13 +46,13 @@
 
 #define PIXEL_COUNT        30 //for temp obj
 
-#define PIXEL_COUNT_ONE    18  //18
-#define PIXEL_COUNT_TWO    18  //18
-#define PIXEL_COUNT_THREE  30  //30
+#define PIXEL_COUNT_ONE    0  //18
+#define PIXEL_COUNT_TWO    0  //18
+#define PIXEL_COUNT_THREE  0  //30
 
-#define PIXEL_COUNT_FOUR   30  //30 //MAJOR CHANGE
-#define PIXEL_COUNT_FIVE   30  //14
-#define PIXEL_COUNT_SIX    30  //15 //MAJOR CHANGE
+#define PIXEL_COUNT_FOUR   144  //30 //MAJOR CHANGE
+#define PIXEL_COUNT_FIVE   0  //14
+#define PIXEL_COUNT_SIX    144  //15 //MAJOR CHANGE
 
 #define PIXEL_BRIGHTNESS   255 //0-255
 
@@ -86,7 +86,7 @@ void loop() {
     */
   if (runDefault) {
     Serial.println("Running default code master! :)");
-    defaultDesignComp();
+    defaultDesignFun();
   }
   else if (Serial.available() > 0) {
     //timeSince = millis();
